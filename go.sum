@@ -3,6 +3,8 @@ github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSs
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/dimkasta/gologger v0.0.0-20200522091715-d2eb778dcd22 h1:ED+Or7hI7oGic2tCwg+V3/9LY0FVMeb/yuWFdQljeDk=
 github.com/dimkasta/gologger v0.0.0-20200522091715-d2eb778dcd22/go.mod h1:dYoTqAKdZDIiRC2B5IU6XgcCTChBBzf6CAx1qzPdVlU=
+github.com/dimkasta/gologger v0.0.0-20200522124846-bf1fbd85a58d h1:9SatWcBs4lx46DndincpuFPt1SjuuAlTLeb+cGNfw5c=
+github.com/dimkasta/gologger v0.0.0-20200522124846-bf1fbd85a58d/go.mod h1:dYoTqAKdZDIiRC2B5IU6XgcCTChBBzf6CAx1qzPdVlU=
 github.com/go-playground/assert/v2 v2.0.1/go.mod h1:VDjEfimB/XKnb+ZQfWdccd7VUvScMdVu0Titje2rxJ4=
 github.com/go-playground/locales v0.13.0 h1:HyWk6mgj5qFqCT5fjGBuRArbVDfE4hi8+e8ceBS/t7Q=
 github.com/go-playground/locales v0.13.0/go.mod h1:taPMhCMXrRLJO55olJkUXHZBHCxTMfnGwq/HNwmWNS8=
