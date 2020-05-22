@@ -33,3 +33,23 @@ func (mail *Mail) SetSubject(subject string) {
 	mail.Subject = subject
 }
 
+func (email *Mail) IsFromValid() bool {
+	return email.From != nil
+}
+
+func (email *Mail) IsToValid() bool {
+	return len(email.To) > 0 && len(email.ToList) > 0
+}
+
+func (email *Mail) IsSubjectValid() bool{
+	return email.Subject != ""
+}
+
+func (email *Mail) IsBodyValid() bool {
+	return email.Body != ""
+}
+
+func (email *Mail) IsValid() bool {
+	return email.IsFromValid() && email.IsToValid() && email.IsSubjectValid() && email.IsBodyValid()
+
+}
